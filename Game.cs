@@ -1,15 +1,16 @@
-﻿using AetherArk
+﻿using AetherArk.Aether.Core;
 
 namespace AetherSpace
 {
     public class Game
     {
+        [STAThread]
         public static void Main()
         {
-            WindowSystem window = new WindowSystem();
+            var window = new WindowSystem();
 
             var application = new Application();
-            application.Run(window);
+            // application.Run(window);
         }
     }
 }
