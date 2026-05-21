@@ -4,12 +4,13 @@ namespace AetherSpace
 {
     public class Game
     {
-        [STAThread]
+        // [STAThread]
         public static void Main()
         {
             var window = new WindowSystem();
 
-            var application = new Application();
+            
+            // var application = new ();
             // application.Run(window);
         }
     }
